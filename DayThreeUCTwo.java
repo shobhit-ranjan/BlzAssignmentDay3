@@ -2,7 +2,7 @@ package com.day3PP.LineComparison.uc;
 
 import java.util.Scanner;
 
-public class DayThreeUCOne {
+public class DayThreeUCTwo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,11 +19,12 @@ public class DayThreeUCOne {
        System.out.println("Enter the Value Of Y2.");
        double y2=sc.nextDouble();
        
+       System.out.println(x1 == x2);
+       System.out.println(y1 == y2);
        
        
-       double LengthOfLine = Math.sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
-       System.out.println("Length Of Your Line is  "+ LengthOfLine);
        
 	}
 
 }
+
